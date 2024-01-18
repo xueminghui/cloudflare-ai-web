@@ -20,7 +20,7 @@ onMounted(() => {
            @click="hideTabBar = !hideTabBar">
         <UIcon name="i-heroicons-bars-3-20-solid" class="h-7 w-7 m-1"/>
       </div>
-      <h1 @click="handleClick" class="text-lg font-bold ml-2 hover:cursor-pointer">CF AI Web</h1>
+      <h1 @click="handleClick" class="text-lg font-bold ml-2 hover:cursor-pointer">Chat AI Web</h1>
       <IButton class="ml-auto" :name="isDark ? 'i-heroicons-moon' : 'i-heroicons-sun'"
                @click.passive.stop="toggleDark()"/>
     </UContainer>
